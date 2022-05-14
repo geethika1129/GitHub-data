@@ -1,23 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import card from './components/card';
+import Card from './components/card';
 import reportWebVitals from './reportWebVitals';
+import App from './App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
   <div className="container">
-   <div className="row">
-    <card />
-    <card />
-    <card />
-    <card />
-    <card />
-    <card />
-    <card />
-    <card />
-    </div></div>
+    <div className="row">
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    
+    </div>
+    </div>
   </>
 );
 

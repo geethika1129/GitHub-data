@@ -1,9 +1,9 @@
 import React from 'react'
 
-const card = () => {
+const Card = () => {
   return (
-    <div>
-        <div class="col-sm-4">
+
+      <div class="col-sm-4">
      <div class="shadow p-3 mb-5 bg-white rounded " id='cint'>
 
                     <div className="center">
@@ -19,8 +19,7 @@ const card = () => {
                    </ul>
                  </div>
     </div>
-    </div>
   )
 }
 
-export default card
+export default Card
