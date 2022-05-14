@@ -8,23 +8,18 @@ import App from './App'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
+  <br/>
+  <h1><center>List of Github Users</center></h1>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
   <div className="container">
     <div className="row">
-    <Card 
-       name="Geethika"
-       text="hello"
-       a="sing"
-    />
-    <Card 
-       name="John"
-       text="hey hey"
-       a="dance"
-    />
-    <Card 
-       name="Peter"
-       text="hi dude"
-       a="coolest"
-    />
+   
+    <Card />
+    <Card />
+    <Card />
     <Card />
     <Card />
     <Card />
