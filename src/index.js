@@ -10,13 +10,21 @@ root.render(
   <>
   <div className="container">
     <div className="row">
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
+    <Card 
+       name="Geethika"
+       text="hello"
+       a="sing"
+    />
+    <Card 
+       name="John"
+       text="hey hey"
+       a="dance"
+    />
+    <Card 
+       name="Peter"
+       text="hi dude"
+       a="coolest"
+    />
     <Card />
     <Card />
     <Card />
